@@ -21,10 +21,7 @@ It uses structs and pointers for efficient data handling and dynamic memory mana
 
 ---
 
-## Gereksinimler | Requirements
-- GCC veya uyumlu bir C derleyicisi  
-- (Opsiyonel) Code::Blocks IDE ve `.cbp` proje dosyası  
+## Manuel derleme | Manual compilation
 
-- GCC or compatible C compiler  
-- (Optional) Code::Blocks IDE and `.cbp` project file  
-
+gcc main.c -o automation
+./automation
