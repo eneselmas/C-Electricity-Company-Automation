@@ -48,5 +48,5 @@ It uses **structs** and **pointers** to manage customer data dynamically. Throug
 #### Makefile ile (Varsa)
 
 ```bash
-make
-./main
+gcc main.c -o main.exe
+./main.exe
