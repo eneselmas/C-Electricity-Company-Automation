@@ -34,18 +34,37 @@ It uses **structs** and **pointers** to manage customer data dynamically. Throug
 
 ---
 
-## ⚙️ Gereksinimler | Requirements
+## 💬 Menü İşlemleri | Menu Operations
 
-- GCC (MinGW) veya uyumlu bir C derleyicisi
-- (Opsiyonel) Code::Blocks IDE (proje dosyası `.cbp`)
+### TR
+
+1️⃣ **Kayıt Listele** — Mevcut tüm müşteri kayıtlarını detaylı olarak listeler.  
+2️⃣ **Fatura Hesaplama** — Sayaç değeri girilir, fark hesaplanır ve tarifeye göre indirim uygulanarak yeni fatura oluşturulur.  
+3️⃣ **Yeni Müşteri Kayıt** — Yeni bir müşteri kaydı yapılır.  
+4️⃣ **Fatura Ödeme** — Müşterinin borçlu olduğu faturayı ödemesine imkân tanır.  
+5️⃣ **Kayıt Sil** — Müşteri kaydı silinir (blok boşaltma yöntemiyle).  
+6️⃣ **Güvence Ödeme** — Güvence bedeli ödemesi yapılır.  
+7️⃣ **Liste Güncelle** — Kayıt yılı, tarife, sayaç değeri veya fatura gibi bilgiler güncellenir.  
+8️⃣ **Programı Kapat** — Program sonlandırılır.
+
+---
+
+### EN
+
+1️⃣ **List Records** — Lists all customer records in detail.  
+2️⃣ **Calculate Invoice** — Enter new meter value, calculate consumption difference, and generate invoice with tariff-based discount.  
+3️⃣ **Add New Customer** — Register a new customer with details.  
+4️⃣ **Pay Invoice** — Allows the customer to pay outstanding invoices.  
+5️⃣ **Delete Record** — Deletes a customer record (block-clearing method).  
+6️⃣ **Pay Security Deposit** — Allows payment of the security deposit.  
+7️⃣ **Update Record** — Update details like registration year, tariff, meter value, or invoice.  
+8️⃣ **Exit Program** — Closes the application.
 
 ---
 
 ## 💻 Kullanım | Usage
 
 ### Derleme | Compilation
-
-#### Makefile ile (Varsa)
 
 ```bash
 gcc main.c -o main.exe
